@@ -1,0 +1,50 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c793f48ad195493a8141fce9ee0d062247de216d8e36b9591338f814e67db276
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 23932a5d7182383f7d52578a67c264e00a1a061af5833b75a798c5c25ab7d8ff
+Status: install ok installed
+
+Package: ada-url
+Version: 2.7.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 231c7d99649266a3633f85d0ed97e0f99be55c257475972fa3d2df05f66f0c7e
+Description: WHATWG-compliant and fast URL parser written in modern C++
+Status: install ok installed
+
+Package: cli11
+Version: 2.4.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: edd59253bffb940ce61d51b436a45802e15f077d3d66488af1418c1b7b362054
+Description: CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface.
+Status: install ok installed
+
+Package: picojson
+Version: 1.3.0
+Port-Version: 3
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 5a9212de5d026c63e14410cfd02367ae1086105c322d9012f1c1bd645941ac6e
+Description: A header-file-only, JSON parser serializer in C++.
+Status: install ok installed
+
+Package: jwt-cpp
+Version: 0.7.0
+Depends: picojson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e7e8cbcf9e72e5020013dcdbc8baed1c98441eb996e3f0158488adf176a59939
+Description: A header only library for creating and validating json web tokens in c++
+Status: install ok installed
+

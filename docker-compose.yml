@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  zoomsdk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - ngrok
+
+  ngrok:
+    image: wernight/ngrok
+    environment:
+      - NGROK_AUTHTOKEN=2Ry6syOWMhstYEpyLmGayXdLMfB_6Wqtx1jqMvdDi6wYkYXWJ
+    ports:
+      - "4040:4040"  # ngrok web interface
+    command: ngrok http 8000

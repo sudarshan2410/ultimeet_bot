@@ -1,0 +1,3 @@
+/tmp/speakerlabel/build/CMakeFiles/zoomsdk.dir
+/tmp/speakerlabel/build/CMakeFiles/edit_cache.dir
+/tmp/speakerlabel/build/CMakeFiles/rebuild_cache.dir
